@@ -26,7 +26,7 @@
 <thead>
   <tr>
     <td align="center">
-      <p><strong>Autor do Projeto</strong></p>
+      <p><strong>Desafio DIO</strong></p>
       <a href="https://github.com/HeannaReis">
         <img
           src="https://avatars.githubusercontent.com/u/67883256?v=4"
