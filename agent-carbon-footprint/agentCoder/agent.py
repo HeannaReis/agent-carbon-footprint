@@ -8,7 +8,7 @@ from dotenv import load_dotenv, find_dotenv
 load_dotenv(find_dotenv())  # Busca o .env subindo diretórios automaticamente
 
 search_agent = Agent(
-    model='gemini-2.5-flash',
+    model='gemini-3.5-flash',
     name='search_agent',
     description='Você é um agente especilizado em busca na web via Google Search.',
     instruction="""
@@ -19,7 +19,7 @@ search_agent = Agent(
 )
 
 coding_agent = Agent(
-    model='gemini-2.5-flash',
+    model='gemini-3.5-flash',
     name='coding_agent',
     description='Você é um agente especilizado em escrever código e executar codigo.',
     instruction="""
@@ -30,7 +30,7 @@ coding_agent = Agent(
 )
 
 root_agent = Agent(
-    model='gemini-2.5-flash',
+    model='gemini-3.5-flash',
     name='root_agent',
     description='Você é o agente principal e orquestrador.',
     instruction='Você é o agente principal e orquestrador',

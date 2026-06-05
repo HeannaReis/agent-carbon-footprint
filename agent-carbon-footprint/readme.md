@@ -106,6 +106,78 @@ adk web agenttaskmanager
 - Gerenciamento de credenciais com `.env`
 - Separação de responsabilidades entre agentes especializados
 
+---
+
+## 💬 Exemplo de Uso — Agente Trello em Ação
+
+Vamos ver um fluxo completo de gerenciamento de tarefas, desde um board vazio até a alteração de status e prazos.
+
+### 1. Começando: O Agente Confirma que Não Há Tarefas
+
+A primeira interação mostra o agente verificando o board e confirmando que não há tarefas pendentes.
+
+
+![Agente confirmando que não há tarefas](assets/sem_tarefa.png)
+
+
+### 2. Criação: Adicionando Novas Tarefas
+
+O usuário adiciona várias tarefas manualmente.
+
+![Board do Trello com novas tarefas](assets/add_tarefas_tello.png)
+
+Faz nova pergunta sobre as tarefas e o Agente retorna as tarefas adicionadas manualmente.
+
+![Interface de consulta via pergunta](assets/nova_pergunta_com_tarefa.png)
+
+
+### 3.  Ajuste Fino: Alterando o Prazo de uma Tarefa
+
+O agente também pode ajustar detalhes como datas de vencimento.
+
+**A conversa com o agente:**
+
+![Conversa para alterar prazo](assets/alterar_prazo.png)
+
+
+**O resultado no Trello:**
+
+![Tarefa com prazo atualizado no Trello](assets/tarefa_com_prazo.png)
+
+
+### 4.  Modificação: Alterando o Status de uma Tarefa
+
+Em seguida, o usuário pede para mover uma tarefa para "Em Andamento".
+
+**A conversa com o agente:**
+
+![Conversa para alterar status](assets/alterar_para_andamento.png)
+
+
+**O resultado no Trello:**
+
+![Tarefa movida para Em Andamento no Trello](assets/tarefa_em_andamento_trello.png)
+
+**Resposta do Agente:**
+
+![Confirmação de alteração do Agente](assets/tarefa_alterada.png)
+
+
+### 5. Remover Tarefas
+
+Tentativa de remover uma tarefa
+![Resultado de uma alteração complexa](assets/resulta_alterar_e_remover.png)
+
+
+### 6. Criar Tarefas com o Agente 
+
+Criando Tarefa com iteração via agente Trello
+![Solicitação para criar Tarefa](assets/agente_criando_tarefa.png)
+
+Interface do Trello com a tarefa criada pelo agente com descrição e prazo.
+
+![Tarefa criada no Trello](assets/tarefa_criada_agente.png)
+
 <!--START_SECTION:footer-->
 <p align="center">
   <a href="https://www.dio.me/" target="_blank">

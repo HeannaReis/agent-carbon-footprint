@@ -138,7 +138,7 @@ def mudar_status_tarefa(nome_da_task: str, novo_status: str) -> str:
 
 
 root_agent = Agent(
-    model='gemini-2.5-flash',
+    model='gemini-3.5-flash',
     name='root_agent',
     description='Agente de Organização de Tarefas',
     instruction=f"""
